@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  background-color: rgba(35, 43, 45, 0.832);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+  background-color: rgb(182, 182, 182);
+  overflow: hidden;
+}
+.display {
+  color: rgb(241, 243, 245);
+  background-color: rgba(19, 17, 21, 0.848);
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+.display-1 {
+  opacity: 0.4;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.all_button {
+  color: rgb(47, 47, 47);
+  display: grid;
+  grid-template: repeat(4, 2fr) / repeat(4, 1fr);
+}
+.button {
+  border: 1px solid rgba(23, 23, 23, 0.696);
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(113, 119, 119, 0.337);
+}
+.all-clear {
+  grid-column: 1/3;
+}
+.btn-0 {
+  grid-column: 1/3;
+}
+.operation {
+  background-color: rgba(243, 87, 9, 0.815);
+}
+.operation:hover {
+  background-color: rgb(244, 87, 8);
+}
+.equal {
+  background-color: rgba(243, 87, 9, 0.815);
+}
+.equal:hover {
+  background-color: rgb(244, 87, 8);
+}
